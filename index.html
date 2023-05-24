@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+    <body>
+      <header class="container-nav">
+        <nav class="navbar" role="navigation">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="acerca-de.html">About</a></li>
+            <li><a href="servicios.html">Services</a></li>
+            <li><a href="contacto.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+      </header>
+      <main>  
+          <div class="container">
+          <h1>Bienvenidos a mi primer Website</h1>  
+          <section>
+            <h2>Presentación</h2>
+                </div>
+        <p>Soy Cristian García, ¡y esta es mi primera página web!</p>
+            <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+          </section>
+          <section>
+            <h2>Lo que se viene...</h2>
+            <p>
+              A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.
+            </p>
+          </section>
+        </div>
+        <div class="container-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ea7w55l2WiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </main>
+      <footer>
+        <form id="myForm">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Enviar</button>
+        </form>
+        <br>
+        <p>Desarrollado por CG DEVs</p>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+        <script src="script.js"></script>
+      </footer>
+    </body>
+</html>

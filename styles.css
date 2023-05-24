@@ -71,6 +71,12 @@ p {font-family: 'Times New Roman', Times, serif ;color:red; font-size: 18px; pad
     display: none;
   }
 
+  .greeting {
+    color: #c70ae8;
+    font-size: large;
+    text-align: center;
+  }
+
   .container-imagenes {
     display: flex;
     flex-wrap: wrap;
